@@ -1,0 +1,32 @@
+.SearchBar{
+    padding: 1rem;
+    
+}
+
+.input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius:  25px 0px 0px 25px;
+    background-color:#d0f6f8;
+    
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius:  0px 25px 25px 0px;
+    color: white;
+    background-color:#4ef037;
+}
+
+.button:hover{
+    background-color:#37f0c2;
+    color: white;
+}
+
+.button:active{
+    background-color: #128494;
+}

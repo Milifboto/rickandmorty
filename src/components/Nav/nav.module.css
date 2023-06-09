@@ -1,0 +1,46 @@
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font: large;
+    align-items: center;
+    width: 90%;
+    font-family: fantasy;
+    padding: 1rem;
+}
+
+.image{
+    width: 12%;
+    height: auto;
+}
+
+.containerButton{
+    width: 30%;
+}
+
+.link{
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #4ef037;
+}
+
+.link:hover{
+    background: #e9f8e54d;
+    border-radius: 8px;
+    color:  #b2e6ec;
+    
+
+}
+
+.searchBar{
+    padding: 10rem;
+}
+
+.title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 150px;
+ }

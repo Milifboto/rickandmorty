@@ -1,0 +1,99 @@
+.cardContainer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+    background-image: url("../../../public/portal.png");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    box-shadow:  10px 5px 5px rgb(224, 224, 224);;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    -moz-osx-font-smoothing:grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    
+}
+
+.cardContainer:hover {
+    transform: scale(1.05);
+}
+
+.atributes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 300px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.closeButton {
+    opacity: 0.7;
+    right: 40px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: chartreuse;
+    color: greenyellow;
+    background-color: rgb(2, 105, 48);
+}
+
+.closeButton:hover {
+  background-color: rgb(19, 34, 19);
+  color: yellow;
+}
+
+.closeButton:before {
+    transform: rotate(45deg);
+}
+.closeButton:after {
+    transform: rotate(-45deg);
+} 
+.characterImage {
+  display: block;
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+  .imageContainer {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-block: 5px;
+  }
+
+  .imageContainer:hover .characterImage {
+    opacity: 0.2;
+  }
+
+  .imageContainer:hover .name {
+    opacity: 1;
+  }
+
+  .name {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50% );
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
